@@ -238,7 +238,7 @@ async def _(client, callback_query):
         [InlineKeyboardButton("❌ Batal", callback_data=f"home {user_id}")],
     ]
     return await callback_query.edit_message_text(
-        f"<b>💳 ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴍᴀɴᴜᴀʟ</b>\n\n📝 <b>Transfer ke:</b>\n🏦 <b>Dana:</b> 6287768378361\n💰 <b>Jumlah:</b> {toRupiah(jumlah)}\n\n📸 <b>Silahkan Kirim Bukti Pembayaran Anda.</b>",
+        f"<b>💳 ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴍᴀɴᴜᴀʟ</b>\n\n📝 <b>Transfer ke:</b>\n🏦 <b>Dana:</b> 081295593189\n💰 <b>Jumlah:</b> {toRupiah(jumlah)}\n\n📸 <b>Silahkan Kirim Bukti Pembayaran Anda.</b>",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(buttons),
     )
