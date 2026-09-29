@@ -22,10 +22,10 @@ RMBG_API = os.getenv("RMBG_API", "MA2sUZ4HdAfBegL36HiG4BUG")
 MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://fizzpamell:fizzpamell@cluster0.9nmhi5m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-4628173231"))
 
-OWNER_NAME = os.getenv("OWNER_NAME", "Walzz")
-OWNER_LINK = os.getenv("OWNER_LINK", "t.me/walzall")
+OWNER_NAME = os.getenv("OWNER_NAME", "Azka")
+OWNER_LINK = os.getenv("OWNER_LINK", "t.me/minboy_vip")
 
-BOT_FOOTER = os.getenv("BOT_FOOTER", "🛠️ Ibra Decode Userbot 🛠️")
+BOT_FOOTER = os.getenv("BOT_FOOTER", "🛠️ Azka userbot 🛠️")
 
 API_ATLANTIC = os.getenv("API_ATLANTIC", "your_api_key")
 FEE_TRANSAKSI = int(os.getenv("FEE_TRANSAKSI", 1000))
